@@ -11,6 +11,7 @@ According to frequency
 | 181   | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/181_Employees_Earning_More_Than_Their_Managers.py) | Easy     |  tmp_table is faster than using entire table  |
 | 178   | [Rank Scores](https://leetcode.com/problems/rank-scores/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/178_Rank_Scores.py) | Medium     |  Rank consecutively, what if not consecutively, what if same score rank differently?  |
 | 1179  | [Reformat Department Table](https://leetcode.com/problems/reformat-department-table/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1179_Reformat_Department_Table.py) | Easy     |  CASE WHEN change column to differnt rows  |
+| 180  | [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/180_Consecutive_Numbers.py) | Medium     |  Consecutive implement  |
 
 
 ### Optimization Idea:
