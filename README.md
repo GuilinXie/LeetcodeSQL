@@ -13,6 +13,7 @@ According to frequency
 | 1179  | [Reformat Department Table](https://leetcode.com/problems/reformat-department-table/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1179_Reformat_Department_Table.py) | Easy     |  CASE WHEN change column to differnt rows  |
 | 180  | [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/180_Consecutive_Numbers.py) | Medium     |  Consecutive implement  |
 | 1212  | [Team Scores in Football Tournament](https://leetcode.com/problems/team-scores-in-football-tournament/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1212_Team_Scores_in_Football_Tournament.py) | Medium     |  IFNUL(name, 0), SUM() can not be in IFNULL function, UNION ALL  |
+| 185  | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/185_Department_Top_Three_Salaries.py) | Hard     |  Top3 for different departments  |
 
 
 ### Optimization Idea:
