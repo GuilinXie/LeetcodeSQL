@@ -14,6 +14,7 @@ According to frequency
 | 180  | [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/180_Consecutive_Numbers.py) | Medium     |  Consecutive implement  |
 | 1212  | [Team Scores in Football Tournament](https://leetcode.com/problems/team-scores-in-football-tournament/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1212_Team_Scores_in_Football_Tournament.py) | Medium     |  IFNUL(name, 0), SUM() can not be in IFNULL function, UNION ALL  |
 | 185  | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/185_Department_Top_Three_Salaries.py) | Hard     |  Top3 for different departments  |
+| 184  | [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/184_Department_Highest_Salary.py) | Medium     |  Can use same method as 185, or use (MAX(Salary), DepartmentId) to check the highest  |
 | 183  | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/183_Customers_Who_Never_Order.py) | Easy     | Not use IS NULL, IS NOT NULL in WEHRE clause, which can be slower |
 
 
