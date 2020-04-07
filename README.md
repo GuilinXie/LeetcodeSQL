@@ -12,10 +12,11 @@ According to frequency
 | 178   | [Rank Scores](https://leetcode.com/problems/rank-scores/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/178_Rank_Scores.py) | Medium     |  Rank consecutively, what if not consecutively, what if same score rank differently?  |
 | 1179  | [Reformat Department Table](https://leetcode.com/problems/reformat-department-table/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1179_Reformat_Department_Table.py) | Easy     |  CASE WHEN change column to differnt rows  |
 | 180  | [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/180_Consecutive_Numbers.py) | Medium     |  Consecutive implement  |
-| 1212  | [Team Scores in Football Tournament](https://leetcode.com/problems/team-scores-in-football-tournament/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1212_Team_Scores_in_Football_Tournament.py) | Medium     |  IFNUL(name, 0), SUM() can not be in IFNULL function, UNION ALL  |
+| 1212  | [Team Scores in Football Tournament](https://leetcode.com/problems/team-scores-in-football-tournament/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1212_Team_Scores_in_Football_Tournament.py) | Medium     |  IFNULL(name, 0), SUM() can not be in IFNULL function, UNION ALL  |
 | 185  | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/185_Department_Top_Three_Salaries.py) | Hard     |  Top3 for different departments  |
 | 184  | [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/184_Department_Highest_Salary.py) | Medium     |  Can use same method as 185, or use (MAX(Salary), DepartmentId) to check the highest  |
 | 183  | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/183_Customers_Who_Never_Order.py) | Easy     | Not use IS NULL, IS NOT NULL in WEHRE clause, which can be slower |
+| 1241  | [Number of Comments per Post](https://leetcode.com/problems/number-of-comments-per-post/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1241_Number_of_Comments_per_Post.py) | Easy     | has to use IS NULL, IS NOT NULL in this case, IFNULL(cnt, 0) |
 
 
 ### Optimization Idea:
