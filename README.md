@@ -26,7 +26,7 @@ According to frequency
 1. Only select those columns that needed, when joining two tables, can first select sub-table for necessary columns. Eg. 175
 
 ### Question:
-1. How to deal with date, Unix timestamps
-  **created_at = "2020-02-13"**
-  **substring(created_at, 1, 7)="2020-02"**  -> to get Februray data, but **substring(created_at,6,7)="02" does not get correct "02"**,    need more information about this...
+1. How to deal with date, Unix timestamps   
+  **created_at = "2020-02-13"**   
+  **substring(created_at, 1, 7)="2020-02"**  -> to get Februray data, but **substring(created_at,6,7)="02" does not get correct "02"**,      need more information about this...  
  
