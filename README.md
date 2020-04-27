@@ -24,3 +24,6 @@ According to frequency
 
 ### Optimization Idea:
 1. Only select those columns that needed, when joining two tables, can first select sub-table for necessary columns. Eg. 175
+
+### Question:
+1. How to deal with date, Unix timestamps
