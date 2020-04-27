@@ -19,6 +19,7 @@ According to frequency
 | 1241  | [Number of Comments per Post](https://leetcode.com/problems/number-of-comments-per-post/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1241_Number_of_Comments_per_Post.py) | Easy     | has to use IS NULL, IS NOT NULL in this case, IFNULL(cnt, 0) |
 | 1270  | [All People Report to the Given Manager](https://leetcode.com/problems/all-people-report-to-the-given-manager/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1270_All_People_Report_to_the_Given_Manager.py) | Medium | chain join and join...  |
 | 618  | [Students Report By Geography](https://leetcode.com/problems/students-report-by-geography/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/618_Students_Report_By_Geography.py) | Hard | Why need those MAX ??  |
+| 597  | [Friend Requests 1: Overall Acceptance Rate](https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/597_Friend_Requests_1_Overall_Acceptance_Rate.py) | Easy | IFNULL() |
 
 
 ### Optimization Idea:
