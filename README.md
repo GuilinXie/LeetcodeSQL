@@ -27,3 +27,6 @@ According to frequency
 
 ### Question:
 1. How to deal with date, Unix timestamps
+  **created_at = "2020-02-13"**
+  **substring(created_at, 1, 7)="2020-02"**  -> to get Februray data, but **substring(created_at,6,7)="02" does not get correct "02"**,    need more information about this...
+ 
