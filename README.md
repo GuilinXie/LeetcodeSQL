@@ -20,6 +20,7 @@ According to frequency
 | 1270  | [All People Report to the Given Manager](https://leetcode.com/problems/all-people-report-to-the-given-manager/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1270_All_People_Report_to_the_Given_Manager.py) | Medium | chain join and join...  |
 | 618  | [Students Report By Geography](https://leetcode.com/problems/students-report-by-geography/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/618_Students_Report_By_Geography.py) | Hard | Why need those MAX ??  |
 | 597  | [Friend Requests 1: Overall Acceptance Rate](https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/597_Friend_Requests_1_Overall_Acceptance_Rate.py) | Easy | IFNULL() |
+| 1341  | [Movie Rating](https://leetcode.com/problems/movie-rating/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1341_Movie_Rating.py) | Medium | created_at="2020-02-15" to get Februrary substring(created_at,1,7)="2020-02", UNION, AVG=SUM/COUNT, ORDER BY..DESC, LIMIT 1 |
 
 
 ### Optimization Idea:
