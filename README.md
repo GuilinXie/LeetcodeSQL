@@ -18,7 +18,7 @@ According to frequency
 | 183  | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/183_Customers_Who_Never_Order.py) | Easy     | Not use IS NULL, IS NOT NULL in WEHRE clause, which can be slower |
 | 1241  | [Number of Comments per Post](https://leetcode.com/problems/number-of-comments-per-post/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1241_Number_of_Comments_per_Post.py) | Easy     | has to use IS NULL, IS NOT NULL in this case, IFNULL(cnt, 0) |
 | 1270  | [All People Report to the Given Manager](https://leetcode.com/problems/all-people-report-to-the-given-manager/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1270_All_People_Report_to_the_Given_Manager.py) | Medium | chain join and join...  |
-
+| 618  | [Students Report By Geography](https://leetcode.com/problems/students-report-by-geography/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/618_Students_Report_By_Geography.py) | Hard | Why need those MAX ??  |
 
 
 ### Optimization Idea:
