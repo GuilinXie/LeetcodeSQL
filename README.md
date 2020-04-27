@@ -17,6 +17,8 @@ According to frequency
 | 184  | [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/184_Department_Highest_Salary.py) | Medium     |  Can use same method as 185, or use (MAX(Salary), DepartmentId) to check the highest  |
 | 183  | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/183_Customers_Who_Never_Order.py) | Easy     | Not use IS NULL, IS NOT NULL in WEHRE clause, which can be slower |
 | 1241  | [Number of Comments per Post](https://leetcode.com/problems/number-of-comments-per-post/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1241_Number_of_Comments_per_Post.py) | Easy     | has to use IS NULL, IS NOT NULL in this case, IFNULL(cnt, 0) |
+| 1270  | [All People Report to the Given Manager](https://leetcode.com/problems/all-people-report-to-the-given-manager/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1270_All_People_Report_to_the_Given_Manager.py) | Medium | chain join and join...  |
+
 
 
 ### Optimization Idea:
