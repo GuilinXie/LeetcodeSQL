@@ -12,7 +12,21 @@ SET N=N-1;
 );
 END
 
-# Method 2 - beat 10%
+# Method 2 - beat 20% - DENSE_RANK(), suitable for Nth, need to clarify if it is a DENSE_RANK() or a RANK()
+# DENSE_RANK(), 1,1,2,3,3,4...
+CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
+BEGIN
+  RETURN (
+      SELECT MAX(Salary)
+      FROM
+      (SELECT Salary, DENSE_RANK() OVER (ORDER BY Salary DESC) AS rk
+       FROM Employee
+      ) e
+      WHERE rk=N
+  );
+END
+
+# Method 3 - beat 10%
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
   RETURN (
