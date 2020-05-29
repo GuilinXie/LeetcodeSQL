@@ -32,4 +32,9 @@ According to frequency
   **created_at = "2020-02-13"**   
   **substring(created_at, 1, 7)="2020-02"**  -> to get Februray data, but **substring(created_at,6,7)="02" does not get correct "02"**,      need more information about this...   
   **Reason**: substring(created_at, 6, 2)="02" should be the correct solution, as the 2 refers to the number of chars starting from position 6. BTW, the first char's index starting from 1, not 0.
+  
+ Reference:
+ 1. Leetcode
+ 2. SQL, create, read, update, delete:
+     https://blog.csdn.net/woaidapaopao/article/details/78030449
  
