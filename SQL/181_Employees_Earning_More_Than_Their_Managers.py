@@ -15,3 +15,10 @@ SELECT e1.Name AS Employee
 FROM Employee e1, Employee e2
 WHERE e1.ManagerId=e2.Id
 AND e1.Salary>e2.Salary
+
+# Method3 - LEFT JOIN
+SELECT e1.Name AS Employee
+FROM Employee e1
+LEFT JOIN Employee e2
+ON e1.ManagerId=e2.Id
+WHERE e1.Salary>e2.Salary
