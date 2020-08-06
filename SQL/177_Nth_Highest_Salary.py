@@ -6,6 +6,8 @@ SET N=N-1;
       # Write your MySQL query statement below.
   SELECT DISTINCT(Salary)
   FROM Employee
+  UNION
+  SELECT NULL
 # GROUP BY can be faster than DISTINCT
 #  GROUP BY Salary
   ORDER BY Salary DESC LIMIT N,1
