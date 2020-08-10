@@ -1,6 +1,6 @@
 # Write your MySQL query statement below
 
-SELECT t.Request_at AS Day, ROUND(SUM(cancel) / SUM(total), 2) AS "Cancellation Rate"
+SELECT t.Request_at AS "Day", ROUND(SUM(cancel) / SUM(total), 2) AS "Cancellation Rate"
 
 FROM
 (SELECT t1.Request_at,
