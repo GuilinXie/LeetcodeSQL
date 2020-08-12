@@ -23,6 +23,8 @@ According to frequency
 | 1341  | [Movie Rating](https://leetcode.com/problems/movie-rating/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1341_Movie_Rating.py) | Medium | created_at="2020-02-15" to get Februrary substring(created_at,1,7)="2020-02", UNION, AVG=SUM/COUNT, ORDER BY..DESC, LIMIT 1 |
 | 1142  | [User Activity for the Past 30 Days 2](https://leetcode.com/problems/user-activity-for-the-past-30-days-ii/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1142_User_Activity_for_the_Past_30_Days_2.py) | Easy | IFNULL, ROUND, DITEDIFF(biggerDate, smallerDate)<30 |
 | 577  | [Employee Bonus](https://leetcode.com/problems/employee-bonus/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/577_employee_bonus.py) | Easy | Do not forget NULL |
+| 626  | [Exchange Seats](https://leetcode.com/problems/exchange-seats/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/626_Exchange_Seats.py) | Medium | IF statement, and MOD(%) |
+
 
 
 ### Optimization Idea:
