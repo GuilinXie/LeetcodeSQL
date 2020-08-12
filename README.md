@@ -24,6 +24,7 @@ According to frequency
 | 1142  | [User Activity for the Past 30 Days 2](https://leetcode.com/problems/user-activity-for-the-past-30-days-ii/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1142_User_Activity_for_the_Past_30_Days_2.py) | Easy | IFNULL, ROUND, DITEDIFF(biggerDate, smallerDate)<30 |
 | 577  | [Employee Bonus](https://leetcode.com/problems/employee-bonus/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/577_employee_bonus.py) | Easy | Do not forget NULL |
 | 626  | [Exchange Seats](https://leetcode.com/problems/exchange-seats/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/626_Exchange_Seats.py) | Medium | IF statement, and MOD(%) |
+| 1312  | [Reported Posts 2](https://leetcode.com/problems/reported-posts-ii/) | [SQL](https://github.com/GuilinXie/LeetcodeSQL/blob/master/SQL/1312_Reported_Posts_2.py) | Medium | LEFT JOIN, COUNT right part / COUNT left part, null would be counting as 0 |
 
 
 
