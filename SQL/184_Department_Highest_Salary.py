@@ -1,5 +1,17 @@
 # Write your MySQL query statement below
 
+# Method 0 - beat 50% - window function
+SELECT t.Department, t.Employee, t.Salary
+FROM
+(
+SELECT d.Name AS Department, e.Name AS Employee, e.Salary, RANK() OVER(PARTITION BY e.DepartmentId ORDER BY e.Salary DESC) AS rk
+FROM Employee e
+JOIN Department d
+ON e.DepartmentId=d.Id
+) t
+WHERE rk=1
+
+
 # Method 1 - beat 50%, similar to 185, Department top3
 SELECT d.Name AS Department, e1.Name AS Employee, e1.Salary
 FROM Employee e1
